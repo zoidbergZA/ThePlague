@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Set1" tilewidth="512" tileheight="512">
+  <tile id="0">
+   <image width="32" height="32" source="../Sprites/Ball.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../Sprites/big_box.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../Sprites/crate.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="64" source="../Sprites/rat_placer.png"/>
+  </tile>
+  <tile id="4">
+   <image width="320" height="32" source="../Sprites/plank.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="128" source="../Sprites/player_placer.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../Sprites/key1.png"/>
+  </tile>
+  <tile id="7">
+   <image width="64" height="64" source="../Sprites/tnt.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="../Sprites/booster.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../Sprites/door.png"/>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="friction" value="0,01"/>
+   </properties>
+   <image width="320" height="32" source="../Sprites/ice.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../Sprites/random_box.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="64" source="../Sprites/Platforms/spikes.png"/>
+  </tile>
+  <tile id="13">
+   <image width="512" height="512" source="../Sprites/gas_box.png"/>
+  </tile>
+  <tile id="14">
+   <image width="64" height="128" source="../Sprites/victim_placer.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="../Sprites/Platforms/stone_middle.png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="Object Layer 1">
+  <object gid="2" x="384" y="416"/>
+  <object gid="3" x="384" y="288"/>
+  <object gid="3" x="768" y="480"/>
+  <object gid="3" x="832" y="480"/>
+  <object gid="6" x="608" y="288"/>
+  <object gid="3" x="384" y="224"/>
+  <object gid="2" x="704" y="416"/>
+  <object gid="8" x="480" y="288"/>
+  <object gid="10" x="768" y="608"/>
+  <object gid="2" x="832" y="416"/>
+  <object gid="2" x="1344" y="416"/>
+  <object gid="2" x="320" y="736"/>
+  <object gid="2" x="448" y="736"/>
+  <object gid="2" x="576" y="736"/>
+  <object gid="2" x="704" y="736"/>
+  <object gid="2" x="832" y="736"/>
+  <object gid="13" x="1088" y="736"/>
+  <object gid="3" x="512" y="352"/>
+  <object gid="3" x="512" y="416"/>
+  <object gid="2" x="1088" y="864"/>
+  <object gid="5" x="960" y="672"/>
+  <object gid="2" x="960" y="992"/>
+  <object gid="2" x="832" y="992"/>
+  <object gid="1" x="1376" y="288"/>
+  <object gid="1" x="1440" y="288"/>
+  <object gid="2" x="1088" y="992"/>
+  <object gid="2" x="704" y="992"/>
+  <object gid="2" x="128" y="736"/>
+  <object gid="3" x="256" y="672"/>
+  <object gid="3" x="256" y="736"/>
+  <object gid="2" x="0" y="736"/>
+  <object gid="3" x="640" y="352"/>
+  <object gid="3" x="576" y="352"/>
+  <object gid="2" x="1472" y="416"/>
+  <object gid="2" x="1216" y="416"/>
+  <object gid="15" x="864" y="288"/>
+  <object gid="13" x="1088" y="384"/>
+  <object gid="16" x="960" y="416"/>
+ </objectgroup>
+ <objectgroup name="Gas Layer">
+  <object gid="14" x="1344" y="512"/>
+  <object gid="4" x="160" y="608"/>
+ </objectgroup>
+</map>

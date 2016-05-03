@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" source="TileSet1.tsx"/>
+ <objectgroup name="Object Layer 1">
+  <object gid="6" x="32" y="160"/>
+  <object gid="16" x="0" y="320"/>
+  <object gid="16" x="128" y="320"/>
+ </objectgroup>
+ <objectgroup name="Gas Layer"/>
+</map>

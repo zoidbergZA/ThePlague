@@ -1,0 +1,12 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|Mixed Platforms" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GXPEngine\PlayerAnimation.cs">
+    <Files>
+      <File FileName="GXPEngine\PlayerAnimation.cs" Line="74" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -4,7 +4,7 @@ public class MyGame : Game
 {
     public static int ycount = 0;
 
-    public MyGame() : base(1280, 960, true)
+    public MyGame() : base(1280, 960, false) // resolution, fullscreen?
     {
         var mainMenu = new MainMenu();
     }
